@@ -6,7 +6,7 @@ from tkinter.filedialog import askopenfile
 # Initilialization Root Tkinter
 root = tk.Tk()
 root.iconbitmap('favicon.png') # Set Favicon
-root.title('SCS-Academy ~ PDF Extractor Text', font=(14, "Raleway"))
+root.title('SCS-Academy ~ PDF Extractor Text', font=(14, "Raleway")) # Set Title Bar
 
 # Main Window (Ukuran Jendela Canvas)
 canvas = tk.Canvas(root, width=600, height=300)
